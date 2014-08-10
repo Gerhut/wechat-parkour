@@ -1,0 +1,2 @@
+#!/bin/sh
+browserify -d game.js -o app.js

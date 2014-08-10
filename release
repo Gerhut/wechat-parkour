@@ -1,0 +1,4 @@
+#!/bin/sh
+browserify -d game.js -o temp.js
+uglifyjs temp.js -o app.js
+rm -f temp.js
